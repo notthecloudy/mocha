@@ -1,0 +1,122 @@
+Activity Resolver Table:
+  Non-Data Actions:
+      android.intent.action.MAIN:
+        4ffc2be dev.mocha.testapp/com.unity3d.player.UnityPlayerGameActivity filter 1714cca
+          Action: "android.intent.action.MAIN"
+          Category: "android.intent.category.LAUNCHER"
+
+Domain verification status:
+
+Permissions:
+  Permission [dev.mocha.testapp.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION] (f38509):
+    sourcePackage=dev.mocha.testapp
+    uid=10238 gids=[] type=0 prot=signature
+    perm=PermissionInfo{82e930e dev.mocha.testapp.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION}
+    flags=0x0
+
+Registered ContentProviders:
+  dev.mocha.testapp/androidx.startup.InitializationProvider:
+    Provider{b2fff1f dev.mocha.testapp/androidx.startup.InitializationProvider}
+
+ContentProvider Authorities:
+  [dev.mocha.testapp.androidx-startup]:
+    Provider{b2fff1f dev.mocha.testapp/androidx.startup.InitializationProvider}
+      applicationInfo=ApplicationInfo{777112f dev.mocha.testapp}
+
+Key Set Manager:
+  [dev.mocha.testapp]
+      Signing KeySets: 72
+
+Packages:
+  Package [dev.mocha.testapp] (e48d33c):
+    appId=10238
+    pccId=-1
+    pkg=Package{1c668c5 dev.mocha.testapp}
+    codePath=/data/app/~~GLWy9C35_Lp5hZ2gY-ZE7w==/dev.mocha.testapp-Ie0AUq4ReZjGgbrCs7_REQ==
+    resourcePath=/data/app/~~GLWy9C35_Lp5hZ2gY-ZE7w==/dev.mocha.testapp-Ie0AUq4ReZjGgbrCs7_REQ==
+    legacyNativeLibraryDir=/data/app/~~GLWy9C35_Lp5hZ2gY-ZE7w==/dev.mocha.testapp-Ie0AUq4ReZjGgbrCs7_REQ==/lib
+    extractNativeLibs=true
+    primaryCpuAbi=arm64-v8a
+    secondaryCpuAbi=null
+    cpuAbiOverride=null
+    versionCode=1 minSdk=26 targetSdk=36
+    minExtensionVersions=[]
+    versionName=1.0
+    hiddenApiEnforcementPolicy=2
+    usesNonSdkApi=false
+    splits=[base]
+    apkSigningVersion=4
+    flags=[ DEBUGGABLE HAS_CODE ALLOW_CLEAR_USER_DATA ALLOW_BACKUP KILL_AFTER_RESTORE ]
+    privateFlags=[ PRIVATE_FLAG_ACTIVITIES_RESIZE_MODE_RESIZEABLE_VIA_SDK_VERSION ALLOW_AUDIO_PLAYBACK_CAPTURE PRIVATE_FLAG_ALLOW_NATIVE_HEAP_POINTER_TAGGING ]
+    forceQueryable=false
+    pageSizeCompat=0
+    scannedAsStoppedSystemApp=false
+    supportsScreens=[small, medium, large, xlarge, resizeable, anyDensity]
+    timeStamp=2026-11-18 19:02:39
+    lastUpdateTime=2026-11-18 19:02:41
+    installerPackageName=null
+    installerPackageUid=-1
+    initiatingPackageName=com.android.shell
+    originatingPackageName=null
+    packageSource=1
+    loadingProgress=100%
+    loadingCompletedTime=2026-11-18 19:02:41
+    appMetadataFilePath=null
+    appMetadataSource=0
+    signatures=PackageSignatures{2c4d21a version:4, signatures:[C29217E59CC95BF096774C9BA65FAAC97F7534451A9C440B49280C280E4D92B3], past signatures:[]}
+    installPermissionsFixed=false
+    pkgFlags=[ DEBUGGABLE HAS_CODE ALLOW_CLEAR_USER_DATA ALLOW_BACKUP KILL_AFTER_RESTORE ]
+    privatePkgFlags=[ PRIVATE_FLAG_ACTIVITIES_RESIZE_MODE_RESIZEABLE_VIA_SDK_VERSION ALLOW_AUDIO_PLAYBACK_CAPTURE PRIVATE_FLAG_ALLOW_NATIVE_HEAP_POINTER_TAGGING ]
+    apexModuleName=null
+    declared permissions:
+      dev.mocha.testapp.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION: prot=signature
+    requested permissions:
+      android.permission.ACCESS_LOCAL_NETWORK
+      android.permission.INTERNET
+      dev.mocha.testapp.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION
+    install permissions:
+      android.permission.INTERNET: granted=true
+      dev.mocha.testapp.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION: granted=true
+    User 0: ceDataInode=549471 deDataInode=393799 pccCeDataInode=0 pccDeDataInode=0 installed=true hidden=false suspended=false appLockEnabled=false distractionFlags=0 stopped=false notLaunched=false enabled=0 instant=false virtual=false quarantined=false
+      installReason=0
+      dataDir=/data/user/0/dev.mocha.testapp
+      firstInstallTime=2026-11-18 19:02:41
+      uninstallReason=0
+      overlay paths:
+        /product/overlay/EmulationPixelFold/EmulationPixelFoldOverlay.apk
+        /product/overlay/NavigationBarModeGestural/NavigationBarModeGesturalOverlay.apk
+      legacy overlay paths:
+        /product/overlay/EmulationPixelFold/EmulationPixelFoldOverlay.apk
+        /product/overlay/NavigationBarModeGestural/NavigationBarModeGesturalOverlay.apk
+      gids=[3003]
+      runtime permissions:
+        android.permission.ACCESS_LOCAL_NETWORK: granted=true, flags=[ REVOKE_WHEN_REQUESTED|USER_SENSITIVE_WHEN_GRANTED|USER_SENSITIVE_WHEN_DENIED]
+
+Queries:
+  system apps queryable: false
+  queries via forceQueryable:
+  queries via package name:
+  queries via component:
+    com.google.android.as:
+      dev.mocha.testapp
+    com.google.android.settings.intelligence:
+      dev.mocha.testapp
+    com.google.android.as.oss:
+      dev.mocha.testapp
+    com.google.android.apps.accessibility.voiceaccess:
+      dev.mocha.testapp
+  queryable via interaction:
+    User 0:
+      [com.android.inputdevices,com.android.server.telecom,com.android.providers.settings,com.android.keychain,com.android.localtransport,com.android.location.fused,com.android.dynsystem,com.android.DeviceAsWebcam,android,com.android.settings,com.android.emulator.multidisplay]:
+        dev.mocha.testapp
+      com.google.android.inputmethod.latin:
+        dev.mocha.testapp
+      com.google.android.gms:
+        dev.mocha.testapp
+  queryable via uses-library:
+
+Dexopt state:
+  [dev.mocha.testapp]
+    path: /data/app/~~GLWy9C35_Lp5hZ2gY-ZE7w==/dev.mocha.testapp-Ie0AUq4ReZjGgbrCs7_REQ==/base.apk
+      x86_64: [status=run-from-apk] [reason=unknown] [primary-abi]
+        [location is error]

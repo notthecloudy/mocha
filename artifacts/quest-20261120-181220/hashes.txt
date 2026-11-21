@@ -1,0 +1,4 @@
+599bea7aaaa619af56b0a9288caf84540d2347c64d95938a1461eb33afc0f7fb  build/mocha-testapp-patched.apk
+1b316e402e9482c8c292073e12b937b93b93cb2af36575b14a281f6a3376274c  testapp/Build/mocha-testapp.apk
+51e276332d465004123f0e3abb974e8f3714c6e904e9292b4841fe6b9ffaba7e  build/android/native/libmain.so
+68ff9900e17b89a5175c3c2ad49c4c51b8f8865fce212c4d118b3c9194b71098  build/android/native/libmocha.so

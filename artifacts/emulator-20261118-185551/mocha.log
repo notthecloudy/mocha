@@ -1,0 +1,15 @@
+2026-11-18T18:55:48Z I Mocha 0.1.0 bootstrapping (abi=arm64-v8a, api=37, data=/storage/emulated/0/Android/data/dev.mocha.testapp/files)
+2026-11-18T18:55:48Z I runtime gate installed on libunity.so (dlsym slot, base=0x7a6d55208000)
+2026-11-18T18:55:48Z I IL2CPP runtime gate installed before libunity initializes IL2CPP
+2026-11-18T18:55:48Z I libil2cpp.so reported by the libmain shim
+2026-11-18T18:55:48Z I IL2CPP API resolved
+2026-11-18T18:55:49Z I intercepted libunity il2cpp_init lookup
+2026-11-18T18:55:49Z I intercepted libunity il2cpp_init_utf16 lookup
+2026-11-18T18:55:50Z I il2cpp_init returned the IL2CPP domain (0x1)
+2026-11-18T18:55:50Z I IL2CPP runtime is ready
+2026-11-18T18:55:50Z I Unity version 6000.6.9f1
+2026-11-18T18:55:50Z W mod skipped: mocha.example.missing-dep: missing dependency 'mocha.example.absent'
+2026-11-18T18:55:50Z E mod mocha.example.failing failed to load: dlopen failed (dlopen failed: library "/storage/emulated/0/Android/data/dev.mocha.testapp/files/mocha/mods/failing-mod.so" needed or dlopened by "/data/app/~~Bi-X_ch1pSVYaROizIy9pQ==/dev.mocha.testapp-9wMHgBuPYegL0HpT-JIBRg==/lib/arm64/libmocha.so" is not accessible for the namespace "clns-9"); internal copy failed: dlopen failed: library "/storage/emulated/0/Android/data/dev.mocha.testapp/files/mocha/native/failing-mod.so" needed or dlopened by "/data/app/~~Bi-X_ch1pSVYaROizIy9pQ==/dev.mocha.testapp-9wMHgBuPYegL0HpT-JIBRg==/lib/arm64/libmocha.so" is not accessible for the namespace "clns-9"
+2026-11-18T18:55:50Z E mod mocha.example.hello failed to load: dlopen failed (dlopen failed: library "/storage/emulated/0/Android/data/dev.mocha.testapp/files/mocha/mods/hello-mod.so" needed or dlopened by "/data/app/~~Bi-X_ch1pSVYaROizIy9pQ==/dev.mocha.testapp-9wMHgBuPYegL0HpT-JIBRg==/lib/arm64/libmocha.so" is not accessible for the namespace "clns-9"); internal copy failed: dlopen failed: library "/storage/emulated/0/Android/data/dev.mocha.testapp/files/mocha/native/hello-mod.so" needed or dlopened by "/data/app/~~Bi-X_ch1pSVYaROizIy9pQ==/dev.mocha.testapp-9wMHgBuPYegL0HpT-JIBRg==/lib/arm64/libmocha.so" is not accessible for the namespace "clns-9"
+2026-11-18T18:55:50Z E mod mocha.example.dependent failed to load: dlopen failed (dlopen failed: library "/storage/emulated/0/Android/data/dev.mocha.testapp/files/mocha/mods/dependent-mod.so" needed or dlopened by "/data/app/~~Bi-X_ch1pSVYaROizIy9pQ==/dev.mocha.testapp-9wMHgBuPYegL0HpT-JIBRg==/lib/arm64/libmocha.so" is not accessible for the namespace "clns-9"); internal copy failed: dlopen failed: library "/storage/emulated/0/Android/data/dev.mocha.testapp/files/mocha/native/dependent-mod.so" needed or dlopened by "/data/app/~~Bi-X_ch1pSVYaROizIy9pQ==/dev.mocha.testapp-9wMHgBuPYegL0HpT-JIBRg==/lib/arm64/libmocha.so" is not accessible for the namespace "clns-9"
+2026-11-18T18:55:50Z I mod load complete: discovered=4 loaded=0 failed=3 skipped=1

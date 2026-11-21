@@ -1,0 +1,11 @@
+loader_version=0.1.0
+abi=arm64-v8a
+unity=6000.6.9f1
+discovered=4
+skipped=1
+skipped_mod=mocha.example.missing-dep: missing dependency 'mocha.example.absent'
+mod.mocha.example.failing=failed:init
+mod.mocha.example.hello=loaded
+mod.mocha.example.dependent=loaded
+loaded=2
+failed=1

@@ -1,0 +1,32 @@
+2026-11-20T18:13:24Z I Mocha 0.1.0 bootstrapping (abi=arm64-v8a, api=34, data=/storage/emulated/0/Android/data/dev.mocha.testapp/files)
+2026-11-20T18:13:24Z I waiting for the IL2CPP runtime gate to reach il2cpp_init
+2026-11-20T18:13:24Z I runtime gate installed on libunity.so (dlsym slot, base=0x783682d000)
+2026-11-20T18:13:24Z I IL2CPP runtime gate installed before libunity initializes IL2CPP
+2026-11-20T18:13:24Z I libil2cpp.so reported by the libmain shim
+2026-11-20T18:13:24Z I intercepted libunity il2cpp_init lookup
+2026-11-20T18:13:24Z I intercepted libunity il2cpp_init_utf16 lookup
+2026-11-20T18:13:24Z I il2cpp_init returned the IL2CPP domain (0x1)
+2026-11-20T18:13:24Z I running mod initialization on the il2cpp_init thread
+2026-11-20T18:13:24Z I IL2CPP API resolved
+2026-11-20T18:13:24Z I IL2CPP runtime is ready (19 assemblies visible)
+2026-11-20T18:13:24Z I Unity version 6000.6.9f1
+2026-11-20T18:13:24Z I mod load complete: discovered=0 loaded=0 failed=0 skipped=0
+2026-11-20T18:13:24Z I mod initialization returned to the engine
+2026-11-20T18:13:44Z I Mocha 0.1.0 bootstrapping (abi=arm64-v8a, api=34, data=/storage/emulated/0/Android/data/dev.mocha.testapp/files)
+2026-11-20T18:13:44Z I waiting for the IL2CPP runtime gate to reach il2cpp_init
+2026-11-20T18:13:44Z I runtime gate installed on libunity.so (dlsym slot, base=0x7835424000)
+2026-11-20T18:13:44Z I IL2CPP runtime gate installed before libunity initializes IL2CPP
+2026-11-20T18:13:44Z I libil2cpp.so reported by the libmain shim
+2026-11-20T18:13:44Z I intercepted libunity il2cpp_init lookup
+2026-11-20T18:13:44Z I intercepted libunity il2cpp_init_utf16 lookup
+2026-11-20T18:13:44Z I il2cpp_init returned the IL2CPP domain (0x1)
+2026-11-20T18:13:44Z I running mod initialization on the il2cpp_init thread
+2026-11-20T18:13:44Z I IL2CPP API resolved
+2026-11-20T18:13:44Z I IL2CPP runtime is ready (19 assemblies visible)
+2026-11-20T18:13:44Z I Unity version 6000.6.9f1
+2026-11-20T18:13:44Z W mod rejected during discovery: dependent-mod.json: cannot be opened
+2026-11-20T18:13:44Z W mod rejected during discovery: failing-mod.json: cannot be opened
+2026-11-20T18:13:44Z W mod rejected during discovery: hello-mod.json: cannot be opened
+2026-11-20T18:13:44Z W mod rejected during discovery: missing-dep-mod.json: cannot be opened
+2026-11-20T18:13:44Z I mod load complete: discovered=0 loaded=0 failed=0 skipped=0
+2026-11-20T18:13:44Z I mod initialization returned to the engine

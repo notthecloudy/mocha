@@ -1,0 +1,64 @@
+2026-11-20T18:13:24Z I Mocha 0.1.0 bootstrapping (abi=arm64-v8a, api=34, data=/storage/emulated/0/Android/data/dev.mocha.testapp/files)
+2026-11-20T18:13:24Z I waiting for the IL2CPP runtime gate to reach il2cpp_init
+2026-11-20T18:13:24Z I runtime gate installed on libunity.so (dlsym slot, base=0x783682d000)
+2026-11-20T18:13:24Z I IL2CPP runtime gate installed before libunity initializes IL2CPP
+2026-11-20T18:13:24Z I libil2cpp.so reported by the libmain shim
+2026-11-20T18:13:24Z I intercepted libunity il2cpp_init lookup
+2026-11-20T18:13:24Z I intercepted libunity il2cpp_init_utf16 lookup
+2026-11-20T18:13:24Z I il2cpp_init returned the IL2CPP domain (0x1)
+2026-11-20T18:13:24Z I running mod initialization on the il2cpp_init thread
+2026-11-20T18:13:24Z I IL2CPP API resolved
+2026-11-20T18:13:24Z I IL2CPP runtime is ready (19 assemblies visible)
+2026-11-20T18:13:24Z I Unity version 6000.6.9f1
+2026-11-20T18:13:24Z I mod load complete: discovered=0 loaded=0 failed=0 skipped=0
+2026-11-20T18:13:24Z I mod initialization returned to the engine
+2026-11-20T18:13:44Z I Mocha 0.1.0 bootstrapping (abi=arm64-v8a, api=34, data=/storage/emulated/0/Android/data/dev.mocha.testapp/files)
+2026-11-20T18:13:44Z I waiting for the IL2CPP runtime gate to reach il2cpp_init
+2026-11-20T18:13:44Z I runtime gate installed on libunity.so (dlsym slot, base=0x7835424000)
+2026-11-20T18:13:44Z I IL2CPP runtime gate installed before libunity initializes IL2CPP
+2026-11-20T18:13:44Z I libil2cpp.so reported by the libmain shim
+2026-11-20T18:13:44Z I intercepted libunity il2cpp_init lookup
+2026-11-20T18:13:44Z I intercepted libunity il2cpp_init_utf16 lookup
+2026-11-20T18:13:44Z I il2cpp_init returned the IL2CPP domain (0x1)
+2026-11-20T18:13:44Z I running mod initialization on the il2cpp_init thread
+2026-11-20T18:13:44Z I IL2CPP API resolved
+2026-11-20T18:13:44Z I IL2CPP runtime is ready (19 assemblies visible)
+2026-11-20T18:13:44Z I Unity version 6000.6.9f1
+2026-11-20T18:13:44Z W mod rejected during discovery: dependent-mod.json: cannot be opened
+2026-11-20T18:13:44Z W mod rejected during discovery: failing-mod.json: cannot be opened
+2026-11-20T18:13:44Z W mod rejected during discovery: hello-mod.json: cannot be opened
+2026-11-20T18:13:44Z W mod rejected during discovery: missing-dep-mod.json: cannot be opened
+2026-11-20T18:13:44Z I mod load complete: discovered=0 loaded=0 failed=0 skipped=0
+2026-11-20T18:13:44Z I mod initialization returned to the engine
+2026-11-20T18:14:14Z I Mocha 0.1.0 bootstrapping (abi=arm64-v8a, api=34, data=/storage/emulated/0/Android/data/dev.mocha.testapp/files)
+2026-11-20T18:14:14Z I waiting for the IL2CPP runtime gate to reach il2cpp_init
+2026-11-20T18:14:14Z I runtime gate installed on libunity.so (dlsym slot, base=0x7835213000)
+2026-11-20T18:14:14Z I IL2CPP runtime gate installed before libunity initializes IL2CPP
+2026-11-20T18:14:14Z I libil2cpp.so reported by the libmain shim
+2026-11-20T18:14:14Z I intercepted libunity il2cpp_init lookup
+2026-11-20T18:14:14Z I intercepted libunity il2cpp_init_utf16 lookup
+2026-11-20T18:14:15Z I il2cpp_init returned the IL2CPP domain (0x1)
+2026-11-20T18:14:15Z I running mod initialization on the il2cpp_init thread
+2026-11-20T18:14:15Z I IL2CPP API resolved
+2026-11-20T18:14:15Z I IL2CPP runtime is ready (19 assemblies visible)
+2026-11-20T18:14:15Z I Unity version 6000.6.9f1
+2026-11-20T18:14:15Z W mod skipped: mocha.example.missing-dep: missing dependency 'mocha.example.absent'
+2026-11-20T18:14:15Z I mod mocha.example.failing loaded from internal copy
+2026-11-20T18:14:15Z I invoking mocha_mod_init for mocha.example.failing
+2026-11-20T18:14:15Z I failing: intentionally returning 7
+2026-11-20T18:14:15Z E mod mocha.example.failing init returned 7
+2026-11-20T18:14:15Z I mod mocha.example.hello loaded from internal copy
+2026-11-20T18:14:15Z I invoking mocha_mod_init for mocha.example.hello
+2026-11-20T18:14:15Z I hello: ok=true
+add=2+3=5
+echo=echo:mocha
+counter_before=0
+counter_after=1
+info=counter=1;unity=6000.6.9f1;persistent=/storage/emulated/0/Android/data/dev.mocha.testapp/files
+2026-11-20T18:14:15Z I mod loaded: mocha.example.hello 1.2.0
+2026-11-20T18:14:15Z I mod mocha.example.dependent loaded from internal copy
+2026-11-20T18:14:15Z I invoking mocha_mod_init for mocha.example.dependent
+2026-11-20T18:14:15Z I dependent: add=3+4=7
+2026-11-20T18:14:15Z I mod loaded: mocha.example.dependent 1.0.0
+2026-11-20T18:14:15Z I mod load complete: discovered=4 loaded=2 failed=1 skipped=1
+2026-11-20T18:14:15Z I mod initialization returned to the engine

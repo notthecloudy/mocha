@@ -1,0 +1,6 @@
+ok=true
+add=2+3=5
+echo=echo:mocha
+counter_before=0
+counter_after=1
+info=counter=1;unity=6000.6.9f1;persistent=/storage/emulated/0/Android/data/dev.mocha.testapp/files

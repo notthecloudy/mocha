@@ -1,0 +1,132 @@
+Activity Resolver Table:
+  Non-Data Actions:
+      android.intent.action.MAIN:
+        f69815e dev.mocha.testapp/com.unity3d.player.UnityPlayerGameActivity filter 20ae93f
+          Action: "android.intent.action.MAIN"
+          Category: "android.intent.category.LAUNCHER"
+
+Domain verification status:
+
+Permissions:
+  Permission [dev.mocha.testapp.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION] (4b40bb9):
+    sourcePackage=dev.mocha.testapp
+    uid=10098 gids=[] type=0 prot=signature
+    perm=PermissionInfo{e2272fe dev.mocha.testapp.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION}
+    flags=0x0
+
+Registered ContentProviders:
+  dev.mocha.testapp/androidx.startup.InitializationProvider:
+    Provider{2288a5f dev.mocha.testapp/androidx.startup.InitializationProvider}
+
+ContentProvider Authorities:
+  [dev.mocha.testapp.androidx-startup]:
+    Provider{2288a5f dev.mocha.testapp/androidx.startup.InitializationProvider}
+      applicationInfo=ApplicationInfo{6518bfe dev.mocha.testapp}
+
+Key Set Manager:
+  [dev.mocha.testapp]
+      Signing KeySets: 297
+
+Packages:
+  Package [dev.mocha.testapp] (dd42f5f):
+    appId=10098
+    pkg=Package{7d7fd75 dev.mocha.testapp}
+    codePath=/data/app/~~1swBDyTQl1NsXmJiD2SVaw==/dev.mocha.testapp-pw-iJDLIZdoOdprooM1gzw==
+    resourcePath=/data/app/~~1swBDyTQl1NsXmJiD2SVaw==/dev.mocha.testapp-pw-iJDLIZdoOdprooM1gzw==
+    legacyNativeLibraryDir=/data/app/~~1swBDyTQl1NsXmJiD2SVaw==/dev.mocha.testapp-pw-iJDLIZdoOdprooM1gzw==/lib
+    extractNativeLibs=true
+    primaryCpuAbi=arm64-v8a
+    secondaryCpuAbi=null
+    cpuAbiOverride=null
+    versionCode=1 minSdk=26 targetSdk=36
+    uses-metavr-sdk=[minApiVersion=-1 (not set), targetApiVersion=-1 (not set)]
+    minExtensionVersions=[]
+    versionName=1.0
+    usesNonSdkApi=false
+    splits=[base]
+    apkSigningVersion=4
+    flags=[ DEBUGGABLE HAS_CODE ALLOW_CLEAR_USER_DATA ALLOW_BACKUP ]
+    privateFlags=[ PRIVATE_FLAG_ACTIVITIES_RESIZE_MODE_RESIZEABLE_VIA_SDK_VERSION ALLOW_AUDIO_PLAYBACK_CAPTURE PRIVATE_FLAG_ALLOW_NATIVE_HEAP_POINTER_TAGGING ]
+    privateFlagsExt=[ PROFILEABLE ]
+    forceQueryable=false
+    dataDir=/data/user/0/dev.mocha.testapp
+    supportsScreens=[small, medium, large, xlarge, resizeable, anyDensity]
+    timeStamp=2026-11-20 18:10:31
+    lastUpdateTime=2026-11-20 18:10:35
+    installerPackageName=null
+    installerPackageUid=-1
+    initiatingPackageName=com.android.shell
+    originatingPackageName=null
+    packageSource=1
+    loadingProgress=100%
+    loadingCompletedTime=2026-11-20 18:10:35
+    appMetadataFilePath=null
+    signatures=PackageSignatures{2fd4798 version:4, signatures:[cc48b028], past signatures:[]}
+    installPermissionsFixed=true
+    pkgFlags=[ DEBUGGABLE HAS_CODE ALLOW_CLEAR_USER_DATA ALLOW_BACKUP ]
+    privatePkgFlags=[ PRIVATE_FLAG_ACTIVITIES_RESIZE_MODE_RESIZEABLE_VIA_SDK_VERSION ALLOW_AUDIO_PLAYBACK_CAPTURE PRIVATE_FLAG_ALLOW_NATIVE_HEAP_POINTER_TAGGING ]
+    apexModuleName=null
+    declared permissions:
+      dev.mocha.testapp.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION: prot=signature
+    requested permissions:
+      android.permission.INTERNET
+      dev.mocha.testapp.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION
+    install permissions:
+      android.permission.INTERNET: granted=true
+      dev.mocha.testapp.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION: granted=true
+    User 0: ceDataInode=7554014 installed=true hidden=false suspended=false distractionFlags=0 stopped=false notLaunched=false enabled=0 instant=false virtual=false
+      installReason=0
+      firstInstallTime=2026-11-20 18:10:35
+      uninstallReason=0
+      overlay paths:
+        /data/resource-cache/android-default_dialer_overlay-EHfL.frro
+        /product/overlay/Rlds1_2ThemeRRO.apk
+      legacy overlay paths:
+        /product/overlay/Rlds1_2ThemeRRO.apk
+      gids=[3003]
+      runtime permissions:
+
+Queries:
+  system apps queryable: false
+  queries via forceQueryable:
+  queries via package name:
+  queries via component:
+    com.oculus.oemconfig:
+      dev.mocha.testapp
+    com.oculus.q4bservice:
+      dev.mocha.testapp
+    com.meta.handseducationmodule:
+      dev.mocha.testapp
+    ru.zdevs.zarchiver:
+      dev.mocha.testapp
+    com.whatsapp:
+      dev.mocha.testapp
+    com.vrchat.oculus.quest:
+      dev.mocha.testapp
+    com.ContinuumXR.UG:
+      dev.mocha.testapp
+    free.vpn.proxy.vpnly:
+      dev.mocha.testapp
+    com.applisto.appcloner:
+      dev.mocha.testapp
+    com.BabTeam.Baboon:
+      dev.mocha.testapp
+    com.lumi.singularity:
+      dev.mocha.testapp
+  queryable via interaction:
+    User 0:
+      [com.oculus.labservice,com.android.location.fused,com.android.server.telecom,com.oculus.bugreportservice,com.android.keychain,com.oculus.linefrequencyservice,horizonos.platform,com.oculus.appsafety,com.oculus.deviceauthserver,com.android.settings,android,com.android.providers.settings,com.android.localtransport,com.oculus.connectivity.bluetooth,com.android.inputdevices,com.oculus.companion.server,oculus.platform,com.oculus.os.cm,com.oculus.nux.ota,com.oculus.externalstorage]:
+        dev.mocha.testapp
+      com.oculus.vrshell:
+        dev.mocha.testapp
+  queryable via uses-library:
+
+Dexopt state:
+  [dev.mocha.testapp]
+    path: /data/app/~~1swBDyTQl1NsXmJiD2SVaw==/dev.mocha.testapp-pw-iJDLIZdoOdprooM1gzw==/base.apk
+      arm64: [status=run-from-apk] [reason=unknown] [primary-abi]
+        [location is error]
+
+Compiler stats:
+  [dev.mocha.testapp]
+    (No recorded stats)

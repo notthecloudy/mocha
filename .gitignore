@@ -1,0 +1,36 @@
+# Generated build outputs
+/build/
+/testapp/build/
+*.o
+*.a
+
+# Unity generated (case-sensitive paths under testapp/)
+/testapp/Library/
+/testapp/Temp/
+/testapp/Obj/
+/testapp/obj/
+/testapp/Logs/
+/testapp/UserSettings/
+/testapp/.utmp/
+/testapp/MemoryCaptures/
+/testapp/Recordings/
+/testapp/*.csproj
+/testapp/*.sln
+/testapp/*.unityproj
+/testapp/*.user
+
+# IDE and editor files
+/.vscode/
+/.idea/
+/testapp/.vscode/
+*.swp
+*.swo
+*~
+
+# Python
+__pycache__/
+*.pyc
+
+# OS
+.DS_Store
+Thumbs.db

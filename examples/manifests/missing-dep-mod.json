@@ -1,0 +1,13 @@
+{
+  "schema": 1,
+  "id": "mocha.example.missing-dep",
+  "name": "Mocha Example Missing Dependency",
+  "version": "1.0.0",
+  "abi": 1,
+  "dependencies": [
+    {
+      "id": "mocha.example.absent",
+      "version": "^1.0.0"
+    }
+  ]
+}

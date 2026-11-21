@@ -1,0 +1,11 @@
+loader_version=0.1.0
+abi=arm64-v8a
+unity=6000.6.9f1
+discovered=0
+skipped=0
+rejected=dependent-mod.json: cannot be opened
+rejected=failing-mod.json: cannot be opened
+rejected=hello-mod.json: cannot be opened
+rejected=missing-dep-mod.json: cannot be opened
+loaded=0
+failed=0

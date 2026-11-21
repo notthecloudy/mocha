@@ -1,0 +1,15 @@
+2026-11-18T19:02:43Z I Mocha 0.1.0 bootstrapping (abi=arm64-v8a, api=37, data=/storage/emulated/0/Android/data/dev.mocha.testapp/files)
+2026-11-18T19:02:44Z I runtime gate installed on libunity.so (dlsym slot, base=0x7a6d51c0c000)
+2026-11-18T19:02:44Z I IL2CPP runtime gate installed before libunity initializes IL2CPP
+2026-11-18T19:02:44Z I libil2cpp.so reported by the libmain shim
+2026-11-18T19:02:44Z I IL2CPP API resolved
+2026-11-18T19:02:45Z I intercepted libunity il2cpp_init lookup
+2026-11-18T19:02:45Z I intercepted libunity il2cpp_init_utf16 lookup
+2026-11-18T19:02:46Z I il2cpp_init returned the IL2CPP domain (0x1)
+2026-11-18T19:02:46Z I IL2CPP runtime is ready
+2026-11-18T19:02:46Z I Unity version 6000.6.9f1
+2026-11-18T19:02:46Z W mod skipped: mocha.example.missing-dep: missing dependency 'mocha.example.absent'
+2026-11-18T19:02:46Z I mod mocha.example.failing loaded from internal copy
+2026-11-18T19:02:46Z I failing: intentionally returning 7
+2026-11-18T19:02:46Z E mod mocha.example.failing init returned 7
+2026-11-18T19:02:46Z I mod mocha.example.hello loaded from internal copy
